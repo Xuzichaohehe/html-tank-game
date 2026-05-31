@@ -557,6 +557,10 @@
                 for (let exp of this.explosions) {
                     exp.update();
                 }
+                    let c=10;
+                for(let i=0;i<10;i++){
+                     c=c+i;
+                }
 
                 // 清理
                 this.bullets = this.bullets.filter(b => b.active);
